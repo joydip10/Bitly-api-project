@@ -1,0 +1,49 @@
+#body-id{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30%;
+    top:30%
+}
+
+.shortener{
+    gap: 10px;
+}
+.input-class{
+    height:20px;
+}
+.btn-class{
+    height:25px;
+    background-color: lightgreen;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.original{
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#copyshorturl, #copylongurl{
+    display: flex;
+    justify-content:flex-start;
+    gap:10px;
+    align-items:center;
+    display: none;
+}
+
+#copyshorttext, #copylongtext{
+    color:lightskyblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#copyshortbtn, #copylongbtn{
+    border: 0;
+    background-color: bisque;
+    padding: 3px;
+    color:lightgreen;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
